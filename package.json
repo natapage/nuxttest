@@ -1,0 +1,28 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "studio": "drizzle-kit studio",
+    "gen": "drizzle-kit generate:pg",
+    "migrate": "node migrate"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@types/node": "^18.17.3",
+    "drizzle-kit": "^0.19.13",
+    "nuxt": "^3.6.5"
+  },
+  "dependencies": {
+    "@vercel/kv": "^0.2.2",
+    "@vercel/postgres": "^0.4.1",
+    "drizzle-orm": "^0.28.2",
+    "pg": "^8.11.3",
+    "postgres": "^3.3.5"
+  }
+}
